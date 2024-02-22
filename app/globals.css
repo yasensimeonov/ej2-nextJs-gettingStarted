@@ -1,13 +1,84 @@
-@import '../node_modules/@syncfusion/ej2-base/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind-dark.css';
-@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind-dark.css';
-@import "../node_modules/@syncfusion/ej2-react-grids/styles/tailwind-dark.css";
+@import '../node_modules/@syncfusion/ej2-base/styles/tailwind.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/tailwind.css';
+@import "../node_modules/@syncfusion/ej2-react-buttons/styles/tailwind.css";
+@import '../node_modules/@syncfusion/ej2-calendars/styles/tailwind.css';
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/tailwind.css";
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind.css';
+@import "../node_modules/@syncfusion/ej2-react-dropdowns/styles/tailwind.css";
+@import '../node_modules/@syncfusion/ej2-inputs/styles/tailwind.css';
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/tailwind.css";
+@import '../node_modules/@syncfusion/ej2-navigations/styles/tailwind.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/tailwind.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/tailwind.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.control_wrapper.textbox-form {
+    max-width: 400px;
+    margin: auto;
+    border: 0.5px solid #bebebe;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 36%);
+    padding: 1% 4% 2%;
+    background: #f9f9f9;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.submitBtn {
+    text-align: center;
+    margin: 30px;
+}
+
+#container {
+    margin: 20px auto 0;
+    width:450px;
+}
+
+.form-group {
+    padding-top: 11px;
+}
+
+.e-custom-label {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+/*Dynamic Form using react-hook-form*/
+body {
+    background: #fbfbfb;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(11 112 231 / 5%) 0px 4px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(231, 235, 241);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.wrapper section {
+    padding: 20px 0;
+}
+
+.e-checkbox-yasen.e-checkbox-wrapper .e-label {
+    color: red;
+    background-color: aqua;
+}
+
+.e-checkbox-yasen.e-checkbox-wrapper .e-frame {
+    /*color: red;*/
+    background-color: aqua;
+}
